@@ -33,7 +33,7 @@ Une application de liste de tâches minimaliste et moderne construite avec **Vue
 
 ### Étapes
 ```bash
-git clone https://github.com/votre-username/to-do-list.git
+git clone https://github.com/nilainaras/To-Do-List-Vuejs
 cd to-do-list
 npm install       # Installe les dépendances
 npm run dev       # Lance le serveur de développement```bash
