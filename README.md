@@ -1,38 +1,40 @@
-# to-do list
+# 📝 My To-Do List
 
-This template should help get you started developing with Vue 3 in Vite.
+Une application de liste de tâches minimaliste et moderne construite avec **Vue.js 3** et stylisée avec **PicoCSS**. Parfaite pour organiser vos journées avec une interface sombre élégante et des fonctionnalités essentielles.
 
-## Recommended IDE Setup
+![Screenshot](/src/assets/screenshot2.png)
+![Screenshot](/src/assets/screenshot1.png)
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## ✨ Fonctionnalités
 
-## Recommended Browser Setup
+✅ **Ajout/Suppression de tâches**  
+🔄 **Barre de progression en temps réel** (% de tâches terminées)  
+🔍 **Filtres dynamiques** (Toutes / Terminées / À faire)  
+💾 **Sauvegarde automatique** dans `localStorage`  
+🌙 **Thème sombre natif** (grâce à PicoCSS)  
+⚡ **Réactivité instantanée** (Vue 3 Composition API)  
+🎨 **Logo animé** et design épuré
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+## 🛠️ Technologies Utilisées
 
-## Customize configuration
+| Outil | Rôle |
+|-------|------|
+| [Vue.js 3](https://vuejs.org/) | Framework frontend (Composition API) |
+| [Vite](https://vitejs.dev/) | Bundler ultra-rapide |
+| [PicoCSS](https://picocss.com/) | Styles CSS minimalistes et thème sombre |
+| [Lucide Icons](https://lucide.dev/) | Icônes vectorielles modernes |
+| `localStorage` | Persistance des données côté client |
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## 🚀 Installation & Démarrage
 
-## Project Setup
+### Prérequis
+- Node.js ≥ 16.x
+- npm ou yarn
 
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+### Étapes
+```bash
+git clone https://github.com/votre-username/to-do-list.git
+cd to-do-list
+npm install       # Installe les dépendances
+npm run dev       # Lance le serveur de développement```bash
+npm run build     # Génère la version de production dans /dist
